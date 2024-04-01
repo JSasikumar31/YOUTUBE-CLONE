@@ -1,0 +1,128 @@
+.subscribe-button {
+    background-color: rgb(214, 12, 12);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: opacity 1s;
+    }
+    .subscribe-button:hover {
+        opacity: 0.3;
+        
+    }
+    
+    .subscribe-button:active {
+        background-color: blue;
+        opacity: 0.5;
+    }
+    
+    
+    
+    
+    
+    .join-button {
+        background-color: white;
+        color: rgb(101, 101, 255);
+        height: 30px;
+        width: 80px;
+        border-color: rgb(119, 119, 248);
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 1s,
+        color 1s;
+    }
+    .join-button:hover{
+        background-color: rgb(119, 119, 248);
+        color: white;
+    }
+    .join-button:active{
+    
+       opacity: 0.4;
+    }
+    }
+    .twet-button {
+        background-color: rgb(173, 173, 247);
+        color: white;
+        width: 80px;
+        height: 60px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+    
+    }
+    .twet-button:active{
+        background-color: black;
+        opacity : 0.5;
+    }
+    .twet-button:hover{
+        opacity: 0.5;
+    }
+    .uber-button{
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+    }
+    .uber-button:hover{
+        opacity: 0.5;
+    }
+    .amazon-button{
+        background-color:rgb(255, 216, 20);
+        color: black;
+        width: 120px;
+        height: 35px;
+        border-radius: 17px;
+        border: none;
+        cursor: pointer;
+    
+    }
+    .amazon-button:hover{
+        background-color: rgb(73, 240, 73);
+    }
+    .github-button{
+        background-color: rgb(46, 164, 79);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
+       cursor: pointer;
+    
+    }
+    .github-button:hover{
+        box-shadow: 10px 10px 10px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.4);
+    }
+    .bootstrap-button{
+        background-color: rgb(117, 117, 189);
+        color: white;
+        font-size: 15px;
+        border: none;
+        border-radius: 4px;
+        width: 100px;
+        height: 39px;
+        cursor: pointer;
+        transition: 2s;
+    }
+    .bootstrap-button:active{
+        background-color: black;
+    }
+    .boot-button{
+        background-color: white;
+    
+        color: rgb(143, 143, 143);
+        border-radius: 4px;
+        width: 100px;
+        height: 40px;
+        border-style: thin;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .boot-button:hover{
+        background-color: rgb(143, 143, 143);
+        color: white;

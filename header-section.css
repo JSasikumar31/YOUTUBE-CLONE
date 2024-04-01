@@ -1,0 +1,133 @@
+.header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(197, 197, 197);
+    z-index: 100;
+}
+.left-section {
+    
+    width: 200;
+    display: flex;
+    align-items: center;
+
+}
+.middle-section {
+    
+    max-width: 700px;
+    flex: 1;
+    margin-left: 70px ;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.right-section {
+  
+     width: 150px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    flex-shrink: 0;
+    }
+
+.yt-hamburger {
+    height: 28px;
+   
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+.yt-logo {
+    height: 23px;
+    
+}
+.yt-search {
+    height: 25px;
+    width: 50px;
+    border-width: 1px;
+    margin-top: 4px;
+
+   
+}
+.yt-voice {
+    height: 25px;
+    padding-top: 2px;
+}
+.youtube-voice {
+    height: 40px;
+    width: 40px;
+    border-color: rgb(214, 214, 214);
+    margin-left: 12px;
+    border: none;
+    border-radius: 20px;
+}
+.youtube-search {
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+    border-style: solid;
+   border-radius: 1px;
+    margin-left: -1px;
+   height: 40px;
+   width: 60px;
+   
+    
+}
+.search-bar {
+    flex: 1;
+    height: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0 , 0.05);
+    width: 0;
+}
+.search-bar::placeholder {
+    font-family: Roboto , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    
+}
+.yt-upload {
+    height: 25px;
+}
+.yt-ytapps {
+    height: 25px;
+}
+.yt-noti {
+    height: 25px;
+    
+}
+.channel-pics {
+    height: 30px;
+    border-radius: 15px;
+    
+}
+.noti-icon-contain {
+    position: relative;
+}
+.noti-head {
+    background-color: rgb(175, 28, 28);
+    position: absolute;
+
+    top: -4px;
+    right: -3px;
+   padding-top: 4px;
+   padding-bottom: 4px ;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-radius: 12px;
+   font-size: 11px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
